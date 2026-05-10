@@ -1,20 +1,68 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# TravelLoop 🌍✈️
 
-# Run and deploy your AI Studio app
+TravelLoop is a simple travel planning web application built for a hackathon.
+It helps users create personalized multi-city itineraries, manage budgets, add activities, and organize trips easily.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/1f9aa5d1-c853-4674-b99b-8de388caefcb
+* User Authentication (Login/Signup)
+* Create and Manage Trips
+* Multi-city Itinerary Builder
+* Activity Search
+* Budget Estimation
+* Packing Checklist
+* Trip Notes / Journal
+* Public Trip Sharing
+* Responsive UI
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+* React.js
+* Tailwind CSS
+* Node.js
+* Express.js
+* PostgreSQL / MongoDB
+* JWT Authentication
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Harshitkumarkumawat0705/Travel_Loop_application.git
+```
+
+Go to project folder:
+
+```bash
+cd Travel_Loop_application
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file and add:
+
+```env
+PORT=5000
+DATABASE_URL=your_database_url
+JWT_SECRET=your_secret_key
+```
+
+## Project Goal
+
+The goal of TravelLoop is to simplify travel planning through an easy-to-use and interactive platform.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
